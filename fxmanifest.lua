@@ -11,6 +11,7 @@ client_scripts {
 }
 -- 1100.39 220.09 -48.75
 server_scripts {
+    '@oxmysql/lib/MySQL.lua',
 	'server/server.lua'
 }
 
