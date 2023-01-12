@@ -1,32 +1,35 @@
 Config = {}
 
 Config.CarHash = 'adder' -- Spawn Code of the car // rng number for this is 19
+Config.RotationSpeed = 0.5 -- How fast the car spins
+Config.RotationInterval = 60 -- In miliseconds, how often rotation speed will be added
+
 Config.Garage = 'pillboxgarage' -- garage to store won vehicle
-Config.Wheel = vector3(990.28, 42.84, 70.50) -- This you have to change
-Config.CarCoords = vector4(975.69, 40.21, 71.71, 360.07) -- Car Coords
-Config.WalkPos = vector3(988.16, 42.44, 71.27) -- Where your character walks from
-Config.WheelPos = vector3(990.28, 42.84, 70.50) -- Wheel pos
-Config.BaseWheelPos = vector3(983.17, 33.86, 46.46) -- Base wheel Pos
+Config.Wheel = vector3(978.01, 50.35, 73.95) -- This you have to changevector3(978.32, 50.83, 74.68)
+Config.CarCoords = vector3(963.56, 47.87, 74.9)--vector3(963.49, 48.22, 75.14) -- Car Coords
+Config.WalkPos = vector3(976.54, 50.8, 74.68) -- Where your character walks from
+Config.WheelPos = vector3(978.01, 50.35, 73.95) -- Wheel pos
+Config.BaseWheelPos = vector3(0.17, 0.35, 0.68) -- Base wheel Pos
 Config.Cost = 25000 -- Amount
-Config.CostType = 'chips'
+Config.CostType = 'cash'
 Config.Rewards = {
     items = {
         {name = 'weapon_snspistol', numbers = {17}, amount = {1}, label = 'SNS Pistol'},
         {name = 'markedbills', numbers = {4,8,11,16}, amount = {10000, 15000, 20000, 25000}, label = 'Marked Money'},
         {name = 'armor', numbers = {2}, amount = {5}, label = 'Armor'}, 
-        {name = 'water_bottle', numbers = {6}, amount = {30}, label = 'Waters'},
+        {name = 'water_bottle', numbers = {5}, amount = {30}, label = 'Waters'},
         {name = 'repairkit', numbers = {18}, amount = {5}, label = 'Repair Kits'},
         {name = 'lockpick', numbers = {10}, amount = {15}, label = 'Lock Picks'},
         {name = 'thermite', numbers = {14}, amount = {1}, label = 'Thermite'},
     },
     money = {
-        {name = 'cash', numbers = {5}, amount = {300000}, label = 'Cash'},
+        {name = 'cash', numbers = {6}, amount = {300000}, label = 'Cash'},
         {name = 'cash', numbers = {3,7,15,18}, amount = {10000,20000,30000,40000}, label = 'Cash'},
-        {name = 'chips', numbers = {1,9,13}, amount = {10000,20000, 40000}, label = 'Casino Chips'},
-        {name = 'chips', numbers = {12}, amount = {200000}, label = 'Casino Chips'}
+        {name = 'cash', numbers = {1,9,13}, amount = {10000,20000, 40000}, label = 'Cash'},
+        {name = 'cash', numbers = {12}, amount = {200000}, label = 'Cash'}
     }
 }
-Config.Chances = {-- be sure to remove 20 from the numbers in this list if you arent using cryptos
+Config.Chances = {-- be sure to remove 20 from the numbers in this list if you arent using cryptos <--ignore him hes crazy
     [1] = {
         max = 500,
         min = 1,
