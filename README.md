@@ -15,6 +15,6 @@ Converted by =  https://github.com/GhzGarage/esx_tpnrp_luckywheel
 ## IMPORTANT!
    ### In qb-core/.config.lua should look like this.
 
+``` Casino Obtained at: https://forum.cfx.re/t/cayo-perico-casino-dlc-ipl-loader/2099391 ```
 
-```lua
-    QBConfig.Money.MoneyTypes = { cash = 500, bank = 5000, crypto = 0, casinochips = 0 }
+```lua QBConfig.Money.MoneyTypes = { cash = 500, bank = 5000, crypto = 0, casinochips = 0 } ```
