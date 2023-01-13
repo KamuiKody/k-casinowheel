@@ -11,7 +11,7 @@ Config.WalkPos = vector3(948.15, 44.94, 71.64) -- Where your character walks fro
 Config.WheelPos = vector3(949.71, 45.08, 70.92) -- Wheel pos
 Config.BaseWheelPos = vector3(0.17, 0.35, 0.68) -- Base wheel Pos
 Config.Cost = 25000 -- Amount
-Config.CostType = 'cash'
+Config.CostType = 'casinochips'
 Config.Rewards = {
     items = {
         {name = 'weapon_snspistol', numbers = {17}, amount = {1}, label = 'SNS Pistol'},
@@ -25,24 +25,24 @@ Config.Rewards = {
     money = {
         {name = 'cash', numbers = {6}, amount = {300000}, label = 'Cash'},
         {name = 'cash', numbers = {3,7,15,18}, amount = {10000,20000,30000,40000}, label = 'Cash'},
-        {name = 'cash', numbers = {1,9,13}, amount = {10000,20000, 40000}, label = 'Cash'},
-        {name = 'cash', numbers = {12}, amount = {200000}, label = 'Cash'}
+        {name = 'casinochips', numbers = {1,9,13}, amount = {10000,20000, 40000}, label = 'Casino Chips'},
+        {name = 'casinochips', numbers = {12}, amount = {200000}, label = 'Casino Chips'}
     }
 }
 Config.Chances = {-- be sure to remove 20 from the numbers in this list if you arent using cryptos <--ignore him hes crazy
     [1] = {
-        max = 500,
+        max = 600,
         min = 1,
         numbers = {1,17,4,8,6,18,14,20}
     },
     [2] = {
-        max = 850,
-        min = 501,
+        max = 950,
+        min = 601,
         numbers = {2,3,10,17,4,8,20}
     },
     [3] = {
         max = 975,
-        min = 851,
+        min = 951,
         numbers = {7,9,15,17,20}
     },
     [4] = {
