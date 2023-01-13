@@ -1,6 +1,6 @@
 # [WIP]
 # qb-casinowheel  
-## Fixed By Kamui_Kody and Mr. Crowley 
+## Fixed By **__Kamui_Kody__** and **__Mr. Crowley__** 
     for your pleasure!
 ### Old Credits, but Good Credits!
 Updated and removed old handlers by me! = https://discord.com/invite/MEDzUG7cAS
@@ -11,6 +11,7 @@ Converted by =  https://github.com/GhzGarage/esx_tpnrp_luckywheel
 
 ## IMPORTANT!
     In qb-core/.config.lua should look like this.
+
+
 ```lua
     QBConfig.Money.MoneyTypes = { cash = 500, bank = 5000, crypto = 0, casinochips = 0 }
-```
