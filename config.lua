@@ -5,10 +5,10 @@ Config.RotationSpeed = 0.5 -- How fast the car spins
 Config.RotationInterval = 60 -- In miliseconds, how often rotation speed will be added
 
 Config.Garage = 'pillboxgarage' -- garage to store won vehicle
-Config.Wheel = vector3(978.01, 50.35, 73.95) -- This you have to changevector3(978.32, 50.83, 74.68)
-Config.CarCoords = vector3(963.56, 47.87, 74.9)--vector3(963.49, 48.22, 75.14) -- Car Coords
-Config.WalkPos = vector3(976.54, 50.8, 74.68) -- Where your character walks from
-Config.WheelPos = vector3(978.01, 50.35, 73.95) -- Wheel pos
+Config.Wheel = vector3(949.70, 45.09, 70.92)-- This you have to changevector3(978.32, 50.83, 74.68)
+Config.CarCoords = vector3(935.05, 42.56, 72.53)--vector3(963.49, 48.22, 75.14) -- Car Coords
+Config.WalkPos = vector3(948.15, 44.94, 71.64) -- Where your character walks from
+Config.WheelPos = vector3(949.71, 45.08, 70.92) -- Wheel pos
 Config.BaseWheelPos = vector3(0.17, 0.35, 0.68) -- Base wheel Pos
 Config.Cost = 25000 -- Amount
 Config.CostType = 'cash'
